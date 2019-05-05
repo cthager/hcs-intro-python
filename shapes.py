@@ -35,3 +35,8 @@ class Rectangle:
             print("False")
         else:
             print("True")
+class Circle: 
+    """A class to create circles""" 
+    def __init__(self, posn, r): 
+        self.center = posn 
+        self.radius = r
